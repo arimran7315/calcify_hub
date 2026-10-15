@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "autoprefixer": "^10.4.21",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.5.4",
+        "tailwind": "^2.3.1",
+        "tailwindcss": "^4.1.11",
+        "vite": "^6.2.4"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^39.0.2",
+        "clsx": "^2.1.1",
+        "motion": "^12.23.1",
+        "tailwind-merge": "^3.3.1",
+        "tesseract.js": "^6.0.1",
+        "trix": "^2.1.15"
+    }
+}
